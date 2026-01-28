@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"Tec Informatica","children":[{"content":"Normas","children":[{"content":"Asig Compu","children":[],"payload":{"tag":"li","lines":"8,9"}},{"content":"<svg width=\"16\" height=\"16\" viewBox=\"0 -3 24 24\"><path d=\"M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m-9 14-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8z\"/></svg> Asistencia -&gt; 0,2","children":[],"payload":{"tag":"li","lines":"9,11"}}],"payload":{"tag":"h2","lines":"6,7"}},{"content":"Uso Mail","children":[{"content":"Actividades","children":[],"payload":{"tag":"li","lines":"13,14"}},{"content":"Uso Classrom","children":[],"payload":{"tag":"li","lines":"14,15"}},{"content":"Textos","children":[{"content":"1. Articulos Tec","children":[],"payload":{"tag":"li","lines":"16,17","listIndex":1}},{"content":"2. Texto instructivo","children":[],"payload":{"tag":"li","lines":"17,18","listIndex":2}},{"content":"3. Desciptivo","children":[],"payload":{"tag":"li","lines":"18,19","listIndex":3}}],"payload":{"tag":"li","lines":"15,19"}},{"content":"Videos","children":[],"payload":{"tag":"li","lines":"19,21"}}],"payload":{"tag":"h2","lines":"11,12"}},{"content":"Notas","children":[{"content":"Asistencia  <strong>3%</strong>","children":[],"payload":{"tag":"h3","lines":"23,24"}},{"content":"Trabajos  <strong>7%</strong>","children":[],"payload":{"tag":"h3","lines":"24,25"}},{"content":"Examen   <strong>15%</strong>","children":[],"payload":{"tag":"h3","lines":"25,26"}},{"content":"Proyecto  <strong>15%</strong>","children":[],"payload":{"tag":"h3","lines":"26,27"}},{"content":"Final <strong>35%</strong>","children":[],"payload":{"tag":"h3","lines":"27,28"}}],"payload":{"tag":"h2","lines":"21,22"}}]},"colorFreezeLevel:2")</script>
+</body>
+</html>
