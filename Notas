@@ -1,4 +1,4 @@
----
+--
 title: Tec Informática
 markmap:
   colorFreezeLevel: 2
@@ -6,7 +6,7 @@ markmap:
 
 ## Normas
 
-- Puntualida Dec 0,1
+- Puntualidad Dec 0,1
 - Asistencia Dec 0,1
 
 ## Digital y analogo 
@@ -26,5 +26,4 @@ markmap:
 - *Examen o quiz* 10%
 - *Proyecto* 15%
 - *Final* 35%
-git comit -m
 
